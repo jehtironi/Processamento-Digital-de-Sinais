@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667265328 source:c:\users\jessica\onedrive - univali\-- engenharia da computação\semestre 8\processamento digital de sinais\avaliações\pds\aula 9\mediamovel\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	"coef.dat"
+
+1667265393 c:\users\jessica\onedrive - univali\-- engenharia da computação\semestre 8\processamento digital de sinais\avaliações\pds\aula 9\mediamovel\coef.dat
+

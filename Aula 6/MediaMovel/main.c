@@ -6,7 +6,7 @@ Walter versão 1.0
 #include <stdio.h>
 #include <fcntl.h>
 #include <io.h>
-#define tam 32 // Tamanho da média
+#define tam 100 // Tamanho da média
 
 int main()
 {
@@ -19,16 +19,16 @@ int main()
 
     // Carregando os coeficientes do filtro média móvel
     float coef[tam] = {
-        #include "coef_32.dat"
+        #include "coefSimu.dat"
     };
 
     /* abre os arquivos de entrada e saida */
-    if ((in_file = fopen("alo.pcm", "rb")) == NULL)
+    if ((in_file = fopen("sweep.pcm", "rb")) == NULL)
     {
         printf("\nErro: Nao abriu o arquivo de entrada\n");
         return 0;
     }
-    if ((out_file = fopen("sai_lo_mm_32.pcm", "wb")) == NULL)
+    if ((out_file = fopen("sweepPF.pcm", "wb")) == NULL)
     {
         printf("\nErro: Nao abriu o arquivo de saida\n");
         return 0;

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667329058 source:c:\users\jessica\documents\- faculdade\pds\aula 6\eco\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+

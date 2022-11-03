@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1667302884 source:c:\users\jessica\onedrive - univali\-- engenharia da computação\semestre 8\processamento digital de sinais\avaliações\pds\aula 6\mediamovel\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	"coefSimu.dat"
+
+1667193048 c:\users\jessica\onedrive - univali\-- engenharia da computação\semestre 8\processamento digital de sinais\avaliações\pds\aula 6\mediamovel\coef.dat
+
+1667303030 c:\users\jessica\onedrive - univali\-- engenharia da computação\semestre 8\processamento digital de sinais\avaliações\pds\aula 6\mediamovel\coefsimu.dat
+
+1667333616 source:c:\users\jessica\documents\- faculdade\pds\aula 6\mediamovel\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	"coefSimuPA.dat"
+
+1667334442 c:\users\jessica\documents\- faculdade\pds\aula 6\mediamovel\coefsimupa.dat
+

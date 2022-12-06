@@ -38,7 +38,7 @@ ifeq ($(MAKECMDGOALS),equal_Debug)
 
 equal_Debug : ./Debug/equal.dxe 
 
-Debug/equal.doj :equal.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/cycles.h $(VDSP)/Blackfin/include/xcycle_count.h $(VDSP)/Blackfin/include/limits.h $(VDSP)/Blackfin/include/cycle_count_bf.h coefPB.dat coefPA.dat coefPF.dat 
+./Debug/equal.doj :equal.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/cycles.h $(VDSP)/Blackfin/include/xcycle_count.h $(VDSP)/Blackfin/include/limits.h $(VDSP)/Blackfin/include/cycle_count_bf.h coefPB.dat coefPA.dat coefPF.dat 
 	@echo ".\equal.c"
 	$(VDSP)/ccblkfn.exe -c .\equal.c -file-attr ProjectName=equal -g -structs-do-not-overlap -no-multiline -D DO_CYCLE_COUNTS -double-size-32 -decls-strong -warn-protos -proc ADSP-BF533 -o .\Debug\equal.doj -MM
 
@@ -51,7 +51,7 @@ endif
 ifeq ($(MAKECMDGOALS),equal_Debug_clean)
 
 equal_Debug_clean:
-	-$(RM) "Debug\equal.doj"
+	-$(RM) ".\Debug\equal.doj"
 	-$(RM) ".\Debug\equal.dxe"
 	-$(RM) ".\Debug\*.ipa"
 	-$(RM) ".\Debug\*.opa"

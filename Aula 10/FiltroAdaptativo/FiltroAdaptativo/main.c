@@ -2,7 +2,7 @@
 #include <fcntl.h>
 #include <io.h>
 #define tam 8// Tamanho da média
-#define taxa 0.000000000005
+#define taxa 0.0000000000005
 
 int main()
 {
@@ -35,7 +35,7 @@ int main()
         printf("\nErro: Nao abriu o arquivo de entrada\n");
         return 0;
     }
-    if ((out_file = fopen("FA_saida.pcm", "wb")) == NULL)
+    if ((out_file = fopen("FA_saida_erro.pcm", "wb")) == NULL)
     {
         printf("\nErro: Nao abriu o arquivo de saida\n");
         return 0;
@@ -89,7 +89,8 @@ int main()
         }
 
         //Salvando saida
-        saida = (short) y;
+        saida = (short) erro;
+        //saida = (short) erro;
 
         //Escreve no arquivo de saída
         fwrite( & saida, sizeof(short), 1, out_file);

@@ -9,7 +9,7 @@ Walter versão 1.0
 #include <cycles.h>
 
 
-#define NSAMPLES       320
+#define NSAMPLES       100
 
 int main()
 {
@@ -22,9 +22,9 @@ int main()
 	float saidaPA = 0;
 
 	// Definicao dos ganhos dos filtros
-	float ganhoPB = 0.7;
+	/*float ganhoPB = 0.7;
 	float ganhoPF = 0.6;
-	float ganhoPA = 0.5;
+	float ganhoPA = 0.5;*/
 	
 	/*float ganhoPB = 0.0;
 	float ganhoPF = 0.0;
@@ -34,9 +34,9 @@ int main()
 	float ganhoPF = 1.0;
 	float ganhoPA = 0.0;*/
 	
-	/*float ganhoPB = 1.0;
-	float ganhoPF = 0.0;
-	float ganhoPA = 0.0;*/
+	float ganhoPB = 0.8;
+	float ganhoPF = 0.5;
+	float ganhoPA = 0.1;
   
     short entrada, saida;
     short sample[NSAMPLES] = {0x0};

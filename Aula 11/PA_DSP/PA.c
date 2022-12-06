@@ -9,7 +9,7 @@ Walter versão 1.0
 #include <cycles.h>
 
 
-#define NSAMPLES       320
+#define NSAMPLES       100
 
 int main()
 {

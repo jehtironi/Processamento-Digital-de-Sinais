@@ -38,7 +38,7 @@ ifeq ($(MAKECMDGOALS),adaptativo_Debug)
 
 adaptativo_Debug : ./Debug/adaptativo.dxe 
 
-./Debug/adaptativo.doj :adaptativo.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/cycles.h $(VDSP)/Blackfin/include/xcycle_count.h $(VDSP)/Blackfin/include/limits.h $(VDSP)/Blackfin/include/cycle_count_bf.h coef_8.dat 
+./Debug/adaptativo.doj :adaptativo.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/string.h $(VDSP)/Blackfin/include/cycles.h $(VDSP)/Blackfin/include/xcycle_count.h $(VDSP)/Blackfin/include/limits.h $(VDSP)/Blackfin/include/cycle_count_bf.h 
 	@echo ".\adaptativo.c"
 	$(VDSP)/ccblkfn.exe -c .\adaptativo.c -file-attr ProjectName=adaptativo -g -structs-do-not-overlap -no-multiline -D DO_CYCLE_COUNTS -double-size-32 -decls-strong -warn-protos -proc ADSP-BF533 -o .\Debug\adaptativo.doj -MM
 

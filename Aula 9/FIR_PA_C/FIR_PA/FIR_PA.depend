@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1670269838 source:c:\users\jessica\documents\- faculdade\pds\aula 9\fir_pa_c\fir_pa\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<math.h>
+

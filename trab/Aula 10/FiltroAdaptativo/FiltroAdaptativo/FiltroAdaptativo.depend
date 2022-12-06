@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1670297382 source:c:\users\jessica\documents\- faculdade\pds\aula 10\filtroadaptativo\filtroadaptativo\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	"coefPB.dat"
+
+1669694516 c:\users\jessica\documents\- faculdade\pds\aula 10\filtroadaptativo\filtroadaptativo\coefpb.dat
+

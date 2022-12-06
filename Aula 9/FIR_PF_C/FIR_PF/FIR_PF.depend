@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1670271328 source:c:\users\jessica\documents\- faculdade\pds\aula 9\fir_pf_c\fir_pf\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<math.h>
+	"coefPF.dat"
+
+1669696862 c:\users\jessica\documents\- faculdade\pds\aula 9\fir_pf_c\fir_pf\coefpf.dat
+

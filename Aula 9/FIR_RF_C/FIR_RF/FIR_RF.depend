@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1670272883 source:c:\users\jessica\documents\- faculdade\pds\aula 9\fir_rf_c\fir_rf\main.c
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<math.h>
+	"coefRF.dat"
+
+1670275252 c:\users\jessica\documents\- faculdade\pds\aula 9\fir_rf_c\fir_rf\coefrf.dat
+
